@@ -25,7 +25,7 @@
     </p>
     <span
       v-if="!isExpand"
-      class="text-[13px] italic text-[#E74C3C] underline cursor-pointer"
+      class="text-[13px] italic text-primary underline cursor-pointer"
       @click="isExpand = true"
     >
       read the rest.

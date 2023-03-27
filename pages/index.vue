@@ -37,18 +37,18 @@
     <div class="container py-[100px]">
       <div class="flex justify-between mb-8">
         <h2
-          class="text-2xl text-[#E5E5E5] font-semibold relative before:absolute before:content-[''] before:w-[112px] before:h-[6px] before:bg-[#E74C3C] before:top-[-16px]"
+          class="text-2xl text-gray font-semibold relative before:absolute before:content-[''] before:w-[112px] before:h-[6px] before:bg-primary before:top-[-16px]"
         >
           Discover Movies
         </h2>
         <div>
           <span
-            class="bg-[#FF0000] text-[#E5E5E5] text-sm rounded-[32px] py-[7px] px-4 mr-4"
+            class="bg-[#FF0000] text-gray text-sm rounded-[32px] py-[7px] px-4 mr-4 cursor-pointer"
           >
             Popularity
           </span>
           <span
-            class="bg-[#21252A] text-[#E5E5E5] text-sm rounded-[32px] py-[7px] px-4"
+            class="bg-[#21252A] text-gray text-sm rounded-[32px] py-[7px] px-4 cursor-pointer"
           >
             Release Date
           </span>

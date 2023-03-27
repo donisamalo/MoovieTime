@@ -6,13 +6,13 @@
   >
     <div class="relative">
       <div
-        class="w-12 h-8 absolute top-0 right-0 bg-[#1E232B]/[0.8] text-lg text-[#E5E5E5] font-bold text-center"
+        class="w-12 h-8 absolute top-0 right-0 bg-[#1E232B]/[0.8] text-lg text-gray font-bold text-center"
       >
         {{ detail?.rating }}
       </div>
       <img :src="getImage" alt="Card Cover" class="w-[220px]" />
     </div>
-    <p class="text-[#E5E5E5] mt-2 truncate">
+    <p class="text-gray font-bold mt-2 truncate">
       {{ detail?.title }}
     </p>
     <p class="text-sm text-[#929292] mt-1">{{ detail?.year }}</p>

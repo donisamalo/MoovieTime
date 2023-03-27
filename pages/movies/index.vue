@@ -2,7 +2,7 @@
   <div class="pt-16">
     <div class="container py-20">
       <h1
-        class="text-4xl text-[#E5E5E5] font-semibold relative before:absolute before:content-[''] before:w-[112px] before:h-[6px] before:bg-[#E74C3C] before:top-[-16px] mb-16"
+        class="text-4xl text-gray font-semibold relative before:absolute before:content-[''] before:w-[112px] before:h-[6px] before:bg-primary before:top-[-16px] mb-16"
       >
         Movies
       </h1>
@@ -10,7 +10,7 @@
       <div class="flex gap-[20px]">
         <div class="w-60 min-w-[240px] py-5 bg-[#111925] rounded-lg h-fit">
           <h4
-            class="text-[#E5E5E5] font-semibold px-4 border-b border-slate-600 mb-4 pb-4"
+            class="text-gray font-semibold px-4 border-b border-slate-600 mb-4 pb-4"
           >
             Sort Result By
           </h4>
@@ -30,7 +30,7 @@
           </div>
 
           <h4
-            class="text-[#E5E5E5] font-semibold px-4 border-y border-slate-600 my-4 py-4"
+            class="text-gray font-semibold px-4 border-y border-slate-600 my-4 py-4"
           >
             Sort Result By
           </h4>

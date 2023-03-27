@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       colors: {
         primary: '#E74C3C',
+        gray: '#E5E5E5',
       },
       backgroundImage: {
         'wonder-woman':

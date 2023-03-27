@@ -27,7 +27,7 @@
             ></i>
             <input
               id="search-bar"
-              class="w-full p-2 pl-12 pr-7 text-sm text-[#E5E5E5] rounded bg-[#24282E] outline-none hover:ring hover:ring-primary transition-all duration-500"
+              class="w-full p-2 pl-12 pr-7 text-sm text-gray rounded bg-[#24282E] outline-none hover:ring hover:ring-primary transition-all duration-500"
               placeholder="Find movie..."
             />
             <button
@@ -46,7 +46,7 @@
               <button
                 id="dropdownNavbarLink"
                 data-dropdown-toggle="dropdownNavbar"
-                class="text-[#E5E5E5] hover:text-primary"
+                class="text-gray hover:text-primary"
               >
                 <i class="icon-view-grid"></i>
                 CATEGORIES
@@ -74,16 +74,16 @@
             <li>
               <a
                 href="javascript:void(0)"
-                class="text-[#E5E5E5] hover:text-primary"
+                class="text-gray hover:text-primary"
                 @click="$router.push('/movies')"
                 >MOVIES</a
               >
             </li>
             <li>
-              <a href="#" class="text-[#E5E5E5] hover:text-primary">TV SHOWS</a>
+              <a href="#" class="text-gray hover:text-primary">TV SHOWS</a>
             </li>
             <li>
-              <a href="#" class="text-[#E5E5E5] hover:text-primary">LOGIN</a>
+              <a href="#" class="text-gray hover:text-primary">LOGIN</a>
             </li>
           </ul>
         </div>
