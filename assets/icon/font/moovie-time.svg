@@ -1,0 +1,18 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2023 by original authors @ fontello.com</metadata>
+<defs>
+<font id="moovie-time" horiz-adv-x="1000" >
+<font-face font-family="moovie-time" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="search" unicode="&#xe800;" d="M673 268c29 46 46 101 46 160 0 164-133 297-297 297-164 0-297-133-297-297 0-165 133-298 297-298 60 0 115 18 162 48l13 9 212-212 66 67-212 212 10 14z m-84 326c44-45 68-104 68-166 0-63-24-122-68-166-45-45-104-69-166-69-63 0-122 24-166 69-45 44-69 103-69 166 0 62 24 121 69 166 44 44 103 69 166 69 62 0 121-25 166-69z" horiz-adv-x="1000" />
+
+<glyph glyph-name="view-grid" unicode="&#xe801;" d="M250 700c-55 0-100-45-100-100v-100c0-55 45-100 100-100h100c55 0 100 45 100 100v100c0 55-45 100-100 100h-100z m0-400c-55 0-100-45-100-100v-100c0-55 45-100 100-100h100c55 0 100 45 100 100v100c0 55-45 100-100 100h-100z m300 300c0 55 45 100 100 100h100c55 0 100-45 100-100v-100c0-55-45-100-100-100h-100c-55 0-100 45-100 100v100z m0-400c0 55 45 100 100 100h100c55 0 100-45 100-100v-100c0-55-45-100-100-100h-100c-55 0-100 45-100 100v100z" horiz-adv-x="1000" />
+
+<glyph glyph-name="movie" unicode="&#xe802;" d="M750 683l83-166h-125l-83 166h-83l83-166h-125l-83 166h-84l84-166h-125l-84 166h-41c-46 0-83-37-83-83l-1-500c0-46 38-83 84-83h666c46 0 84 37 84 83v583h-167z" horiz-adv-x="1000" />
+
+<glyph glyph-name="star" unicode="&#xe803;" d="M471 783c11 26 47 26 58 0l99-230c4-10 14-18 26-19l249-23c28-2 39-36 18-54l-188-166c-9-7-13-19-10-30l55-245c6-27-23-48-46-34l-216 129c-10 5-22 5-32 0l-215-129c-24-14-53 7-47 34l55 245c3 11-1 23-10 30l-188 166c-21 18-10 52 18 54l249 23c12 1 22 9 26 19l99 230z" horiz-adv-x="1000" />
+</font>
+</defs>
+</svg>
