@@ -1,0 +1,93 @@
+{
+  "budget": "$200,000,000.00",
+  "desc": "Wonder Woman comes into conflict with the Soviet Union during the Cold War in the 1980s and finds a formidable foe by the name of the Cheetah.",
+  "genre": "Fantasy, Action, Adventure",
+  "id": "1",
+  "image": "wonder-woman-1984.png",
+  "language": "ENGLISH",
+  "production": "DC Entertainment",
+  "rating": "7,0",
+  "recommendationMovies": [
+    {
+      "desc": "Senior year of high school takes center stage as Lara Jean returns from a family trip to Korea and considers her college plans — with and without Peter.",
+      "genre": "Fantasy",
+      "id": "6",
+      "image": "breach.png",
+      "rating": "4.1",
+      "title": "Breach",
+      "year": "2021"
+    },
+    {
+      "desc": "When the crew of a space junk collector ship called The Victory discovers a humanoid robot named Dorothy that's known to be a weapon of mass destruction, they get involved in a risky business deal which puts their lives at stake.",
+      "genre": "Comedy",
+      "id": "7",
+      "image": "soul.png",
+      "rating": "8.3",
+      "title": "Soul",
+      "year": "2020"
+    },
+    {
+      "desc": "A Texan traveling across the wild West bringing the news of the world to local townspeople, agrees to help rescue a young girl who was kidnapped.",
+      "genre": "Family",
+      "id": "8",
+      "image": "fast-and-furious.png",
+      "rating": "6.9",
+      "title": "Fast & Furious Presents Hobbs & Shaw",
+      "year": "2019"
+    },
+    {
+      "desc": "Senior year of high school takes center stage as Lara Jean returns from a family trip to Korea and considers her college plans — with and without Peter.",
+      "genre": "Fantasy",
+      "id": "9",
+      "image": "the-croods.png",
+      "rating": "7.1",
+      "title": "The Croods: A New Age",
+      "year": "2020"
+    },
+    {
+      "desc": "Senior year of high school takes center stage as Lara Jean returns from a family trip to Korea and considers her college plans — with and without Peter.",
+      "genre": "Action",
+      "id": "10",
+      "image": "vanguard.png",
+      "rating": "6.3",
+      "title": "Vanguard",
+      "year": "2020"
+    },
+    {
+      "desc": "A Texan traveling across the wild West bringing the news of the world to local townspeople, agrees to help rescue a young girl who was kidnapped.",
+      "genre": "History",
+      "id": "11",
+      "image": "tenet.png",
+      "rating": "7.3",
+      "title": "Tenet",
+      "year": "2020"
+    },
+    {
+      "desc": "Senior year of high school takes center stage as Lara Jean returns from a family trip to Korea and considers her college plans — with and without Peter.",
+      "genre": "Horror",
+      "id": "12",
+      "image": "100-percent-wold.png",
+      "rating": "5.9",
+      "title": "100% Wolf",
+      "year": "2020"
+    }
+  ],
+  "reviews": [
+    {
+      "date": "2020/12/18",
+      "name": "SWITCH.",
+      "rating": "7.0",
+      "review": "It isn't as easy as saying 'Wonder Woman 1984' is a good or bad movie. The pieces are there, and there are moments I adore, but it does come across as a bit of a mess, even though the action sequences are breathtaking. If you're a fan of the original film, you'll be more willing to take the ride, but for those more indifferent, it may be a bit of a blander sit. If you can and are planning to watch it, the theatrical experience is the way to go - there is nothing like seeing these stunning sets, fun action scenes and hearing Zimmer's jaw-dropping score like on the big screen. - Chris dos Santos"
+    },
+    {
+      "date": "2020/12/18",
+      "name": "msbreviews",
+      "rating": "8.0",
+      "review": "If you enjoy reading my Spoiler-Free reviews, please follow my blog @ https://www.msbreviews.com The superhero genre has been growing exponentially during the last decade, so it's bizarre to go through an entire year with only Birds of Prey and The New Mutants instead of literally dozens of films from both Marvel and DC. Thankfully, Warner Bros. decided to release Wonder Woman 1984 before the year's end, but not without a catch. Most people will only have the possibility of watching one of the few blockbusters of 2020 through HBO Max, a streaming service only"
+    }
+  ],
+  "status": "RELEASED",
+  "title": "Wonder Woman 1984",
+  "userScore": "3621",
+  "year": "2020"
+}

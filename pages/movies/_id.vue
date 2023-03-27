@@ -63,7 +63,11 @@
         <div class="mt-10">
           <h3 class="text-sm text-[#FF0000] font-semibold mb-4">REVIEWS</h3>
           <div class="flex gap-8 pb-12">
-            <ReviewCard v-for="n in 2" :key="n" />
+            <ReviewCard
+              v-for="review in cardDetail.reviews"
+              :key="review?.name"
+              :detail="review"
+            />
           </div>
         </div>
       </div>
@@ -75,7 +79,7 @@
           Recommendation Movies
         </h3>
         <div class="flex flex-wrap gap-6 mt-9 items-center justify-center">
-          <MovieCard v-for="n in 5" :key="n" />
+          <MovieCard v-for="card in cardList" :key="card?.id" :detail="card" />
         </div>
       </div>
     </div>
@@ -85,5 +89,33 @@
 <script>
 export default {
   name: 'DetailMoviePage',
+  data() {
+    return {
+      cardDetail: {},
+      cardList: [],
+    }
+  },
+  async mounted() {
+    await this.getDetail()
+    await this.getList()
+  },
+  methods: {
+    async getList() {
+      try {
+        const { data } = await this.$api.moovie.getList()
+        this.cardList = data.slice(0, 5)
+      } catch (error) {
+        console.error(error)
+      }
+    },
+    async getDetail() {
+      try {
+        const { data } = await this.$api.moovie.getDetail(this.$route.params.id)
+        this.cardDetail = data
+      } catch (error) {
+        console.error(error)
+      }
+    },
+  },
 }
 </script>

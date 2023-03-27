@@ -1,0 +1,98 @@
+[
+  {
+    "desc": "Wonder Woman comes into conflict with the Soviet Union during the Cold War in the 1980s and finds a formidable foe by the name of the Cheetah.",
+    "genre": "Action",
+    "id": "1",
+    "rating": "7.0",
+    "title": "Wonder Woman 1984",
+    "year": "2020"
+  },
+  {
+    "desc": "A Texan traveling across the wild West bringing the news of the world to local townspeople, agrees to help rescue a young girl who was kidnapped.",
+    "genre": "Adventure",
+    "id": "2",
+    "rating": "6.4",
+    "title": "Below Zero",
+    "year": "2021"
+  },
+  {
+    "desc": "Senior year of high school takes center stage as Lara Jean returns from a family trip to Korea and considers her college plans — with and without Peter.",
+    "genre": "Crime",
+    "id": "3",
+    "rating": "6.3",
+    "title": "The Little Things",
+    "year": "2021"
+  },
+  {
+    "desc": "When the crew of a space junk collector ship called The Victory discovers a humanoid robot named Dorothy that's known to be a weapon of mass destruction, they get involved in a risky business deal which puts their lives at stake.",
+    "genre": "Action",
+    "id": "4",
+    "rating": "6.5",
+    "title": "Outside the Wire",
+    "year": "2021"
+  },
+  {
+    "desc": "A Texan traveling across the wild West bringing the news of the world to local townspeople, agrees to help rescue a young girl who was kidnapped.",
+    "genre": "Documentary",
+    "id": "5",
+    "rating": "5.1",
+    "title": "Black Water:Abyss",
+    "year": "2020"
+  },
+  {
+    "desc": "Senior year of high school takes center stage as Lara Jean returns from a family trip to Korea and considers her college plans — with and without Peter.",
+    "genre": "Fantasy",
+    "id": "6",
+    "rating": "4.1",
+    "title": "Breach",
+    "year": "2021"
+  },
+  {
+    "desc": "When the crew of a space junk collector ship called The Victory discovers a humanoid robot named Dorothy that's known to be a weapon of mass destruction, they get involved in a risky business deal which puts their lives at stake.",
+    "genre": "Comedy",
+    "id": "7",
+    "rating": "8.3",
+    "title": "Soul",
+    "year": "2020"
+  },
+  {
+    "desc": "A Texan traveling across the wild West bringing the news of the world to local townspeople, agrees to help rescue a young girl who was kidnapped.",
+    "genre": "Family",
+    "id": "8",
+    "rating": "6.9",
+    "title": "Fast & Furious Presents Hobbs & Shaw",
+    "year": "2019"
+  },
+  {
+    "desc": "Senior year of high school takes center stage as Lara Jean returns from a family trip to Korea and considers her college plans — with and without Peter.",
+    "genre": "Fantasy",
+    "id": "9",
+    "rating": "7.1",
+    "title": "The Croods: A New Age",
+    "year": "2020"
+  },
+  {
+    "desc": "Senior year of high school takes center stage as Lara Jean returns from a family trip to Korea and considers her college plans — with and without Peter.",
+    "genre": "Action",
+    "id": "10",
+    "rating": "6.3",
+    "title": "Vanguard",
+    "year": "2020"
+  },
+  {
+    "desc": "A Texan traveling across the wild West bringing the news of the world to local townspeople, agrees to help rescue a young girl who was kidnapped.",
+    "genre": "History",
+    "id": "11",
+    "rating": "7.3",
+    "title": "Tenet",
+    "year": "2020"
+  },
+  {
+    "desc": "Senior year of high school takes center stage as Lara Jean returns from a family trip to Korea and considers her college plans — with and without Peter.",
+    "genre": "Horror",
+    "id": "12",
+    "rating": "5.9",
+    "title": "100% Wolf",
+    "year": "2020"
+  }
+]

@@ -57,7 +57,7 @@
         </div>
 
         <div class="flex flex-wrap gap-x-5 gap-y-7">
-          <MovieCard v-for="n in 12" :key="n" />
+          <MovieCard v-for="card in cardList" :key="card.id" :detail="card" />
 
           <button
             type="button"
@@ -89,7 +89,21 @@ export default {
         'History',
         'Horror',
       ],
+      cardList: [],
     }
+  },
+  async mounted() {
+    await this.getList()
+  },
+  methods: {
+    async getList() {
+      try {
+        const { data } = await this.$api.moovie.getList()
+        this.cardList = data
+      } catch (error) {
+        console.error(error)
+      }
+    },
   },
 }
 </script>

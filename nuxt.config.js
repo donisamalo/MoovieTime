@@ -39,7 +39,7 @@ export default {
   css: ['@/assets/css/main.css', '@/assets/icon/css/moovie-time.css'],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [],
+  plugins: [{ src: '@/plugins/api' }],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: [
@@ -64,6 +64,7 @@ export default {
     // https://go.nuxtjs.dev/pwa
     '@nuxtjs/pwa',
     '@nuxtjs/tailwindcss',
+    '@nuxtjs/dayjs',
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
@@ -81,4 +82,12 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
+
+  serverMiddleware: [
+    '~/serverMiddleware',
+    {
+      path: 'api',
+      handler: '~/serverMiddleware/api',
+    },
+  ],
 }

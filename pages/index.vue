@@ -1,31 +1,33 @@
 <template>
   <div>
     <div class="bg-[#1E232A] pt-24 pb-16">
-      <VueSlickCarousel :dots="true" :center-mode="true" :variable-width="true">
-        <div v-for="n in 5" :key="n" class="!flex items-center p-4">
-          <img
-            src="~/assets/image/card/wonder-woman-1984.png"
-            alt="Card Cover"
-            class="w-[243px]"
-          />
+      <VueSlickCarousel
+        v-if="bannerList.length"
+        :dots="true"
+        :center-mode="true"
+        :variable-width="true"
+      >
+        <div
+          v-for="banner in bannerList"
+          :key="banner?.id"
+          class="!flex items-center p-4"
+        >
+          <img :src="getImage(banner.id)" alt="Card Cover" class="w-[243px]" />
           <div class="bg-black text-white p-6 w-[298px] h-[324px]">
             <i class="icon-star text-[#FFB802]"></i>
-            <span class="text-lg font-bold">7.3</span>
-            <h3 class="text-2xl font-medium">Space Sweepers</h3>
+            <span class="text-lg font-bold">{{ banner.rating }}</span>
+            <h3 class="text-2xl font-medium">{{ banner.title }}</h3>
             <div class="my-2">
               <p>
-                2021
+                {{ banner.year }}
                 <span
                   class="relative ml-1 pl-4 before:content-[''] before:absolute before:w-2 before:h-2 before:bg-[#808080] before:left-0 before:inset-y-1.5 before:rounded-full"
-                  >Sci-Fi</span
+                  >{{ banner.genre }}</span
                 >
               </p>
             </div>
             <p class="text-xs">
-              When the crew of a space junk collector ship called The Victory
-              discovers a humanoid robot named Dorothy that's known to be a
-              weapon of mass destruction, they get involved in a risky business
-              deal which puts their lives at stake.
+              {{ banner.desc }}
             </p>
           </div>
         </div>
@@ -54,7 +56,7 @@
       </div>
 
       <div class="flex flex-wrap gap-x-6 gap-y-9">
-        <MovieCard v-for="n in 10" :key="n" />
+        <MovieCard v-for="card in cardList" :key="card?.id" :detail="card" />
       </div>
     </div>
   </div>
@@ -65,15 +67,48 @@ import VueSlickCarousel from 'vue-slick-carousel'
 import 'vue-slick-carousel/dist/vue-slick-carousel.css'
 import 'vue-slick-carousel/dist/vue-slick-carousel-theme.css'
 
+import BelowZero from '~/assets/image/card/below-zero.png'
+import BlackWaterAbyss from '~/assets/image/card/black-water-abyss.png'
+import OutsideTheWire from '~/assets/image/card/outside-the-wire.png'
+import TheLittleThing from '~/assets/image/card/the-little-thing.png'
+import WonderWoman from '~/assets/image/card/wonder-woman-1984.png'
+
 export default {
   name: 'IndexPage',
   components: { VueSlickCarousel },
   data() {
     return {
-      slickOptions: {
-        slidesToShow: 3,
-      },
+      cardList: [],
+      bannerList: [],
     }
+  },
+  async mounted() {
+    await this.getList()
+  },
+  methods: {
+    async getList() {
+      try {
+        const { data } = await this.$api.moovie.getList()
+        this.cardList = data.slice(0, 10)
+        this.bannerList = data.slice(0, 5)
+      } catch (error) {
+        console.error(error)
+      }
+    },
+    getImage(id) {
+      switch (id) {
+        case '1':
+          return WonderWoman
+        case '2':
+          return BelowZero
+        case '3':
+          return TheLittleThing
+        case '4':
+          return OutsideTheWire
+        default:
+          return BlackWaterAbyss
+      }
+    },
   },
 }
 </script>
