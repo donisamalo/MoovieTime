@@ -2,6 +2,8 @@
 
 ## Build Setup
 
+please use node node version 14.20.1
+
 ```bash
 # install dependencies
 $ yarn install
