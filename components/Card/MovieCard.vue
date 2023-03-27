@@ -32,7 +32,7 @@
 
       <button
         type="button"
-        class="text-white text-sm bg-[#FF0000] rounded-[32px] px-8 py-2 font-bold hover:bg-red-700 focus:ring-4 focus:ring-red-900"
+        class="text-white text-sm bg-red rounded-[32px] px-8 py-2 font-bold hover:bg-red-700 focus:ring-4 focus:ring-red-900"
         @click="
           $router.push({
             name: 'movies-id',

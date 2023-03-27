@@ -17,7 +17,7 @@
           <div class="px-4">
             <select
               id="countries"
-              class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+              class="text-gray text-sm rounded-lg block w-full p-2.5 bg-gray-700 border-none outline-none focus:ring focus:ring-primary hover:ring hover:ring-primary transition-all"
             >
               <option selected value="P">Popularity</option>
               <option value="PA">Popularity Ascending</option>
@@ -40,17 +40,14 @@
               :key="genre"
               class="flex items-center justify-between mb-3"
             >
-              <label
-                for="default-checkbox"
-                class="ml-2 text-sm text-gray-900 dark:text-gray-300"
-              >
+              <label for="default-checkbox" class="ml-2 text-sm text-gray-300">
                 {{ genre }}
               </label>
               <input
                 id="default-checkbox"
                 type="checkbox"
                 value=""
-                class="w-4 h-4 text-[#E74C3C] bg-gray-700 border-gray-600 rounded focus:[#E74C3C] focus:ring-2"
+                class="w-4 h-4 text-primary bg-gray-700 border-gray-600 rounded focus:primary focus:ring-2"
               />
             </div>
           </div>
@@ -61,7 +58,7 @@
 
           <button
             type="button"
-            class="m-auto mt-6 text-center text-white text-sm bg-[#FF0000] rounded-[32px] px-8 py-2 font-bold hover:bg-red-700 focus:ring-4 focus:ring-red-900"
+            class="m-auto mt-6 text-center text-white text-sm bg-red rounded-[32px] px-8 py-2 font-bold hover:bg-red-700 focus:ring-4 focus:ring-red-900"
           >
             Load More
           </button>

@@ -43,12 +43,20 @@
         </h2>
         <div>
           <span
-            class="bg-[#FF0000] text-gray text-sm rounded-[32px] py-[7px] px-4 mr-4 cursor-pointer"
+            :class="[
+              'text-gray text-sm rounded-[32px] py-[7px] px-4 mr-4 cursor-pointer transition-all',
+              isPopular ? 'bg-red' : 'bg-[#21252A]',
+            ]"
+            @click="isPopular = !isPopular"
           >
             Popularity
           </span>
           <span
-            class="bg-[#21252A] text-gray text-sm rounded-[32px] py-[7px] px-4 cursor-pointer"
+            :class="[
+              'text-gray text-sm rounded-[32px] py-[7px] px-4 cursor-pointer transition-all',
+              isRelease ? 'bg-red' : 'bg-[#21252A]',
+            ]"
+            @click="isRelease = !isRelease"
           >
             Release Date
           </span>
@@ -80,6 +88,8 @@ export default {
     return {
       cardList: [],
       bannerList: [],
+      isPopular: true,
+      isRelease: false,
     }
   },
   async mounted() {

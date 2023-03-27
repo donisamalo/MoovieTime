@@ -27,7 +27,7 @@
             ></i>
             <input
               id="search-bar"
-              class="w-full p-2 pl-12 pr-7 text-sm text-gray rounded bg-[#24282E] outline-none hover:ring hover:ring-primary transition-all duration-500"
+              class="w-full p-2 pl-12 pr-7 text-sm text-gray rounded bg-[#24282E] outline-none focus:ring focus:ring-primary hover:ring hover:ring-primary transition-all duration-500"
               placeholder="Find movie..."
             />
             <button

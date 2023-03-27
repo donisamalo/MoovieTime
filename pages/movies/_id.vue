@@ -52,7 +52,7 @@
     <div class="bg-white">
       <div class="container">
         <div class="pl-[250px] pt-8">
-          <h3 class="text-sm text-[#FF0000] font-semibold">OVERVIEW</h3>
+          <h3 class="text-sm text-red font-semibold">OVERVIEW</h3>
           <p class="text-sm w-[526px] mt-2 leading-[200%]">
             Wonder Woman comes into conflict with the Soviet Union during the
             Cold War in the 1980s and finds a formidable foe by the name of the
@@ -61,7 +61,7 @@
         </div>
 
         <div class="mt-10">
-          <h3 class="text-sm text-[#FF0000] font-semibold mb-4">REVIEWS</h3>
+          <h3 class="text-sm text-red font-semibold mb-4">REVIEWS</h3>
           <div class="flex gap-8 pb-12">
             <ReviewCard
               v-for="review in cardDetail.reviews"

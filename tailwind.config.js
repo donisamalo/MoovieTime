@@ -6,6 +6,7 @@ module.exports = {
       colors: {
         primary: '#E74C3C',
         gray: '#E5E5E5',
+        red: '#FF0000',
       },
       backgroundImage: {
         'wonder-woman':
